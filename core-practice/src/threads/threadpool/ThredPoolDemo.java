@@ -6,7 +6,6 @@ public class ThredPoolDemo {
 		threadPool.execute(new Task("task1"));
 		threadPool.execute(new Task("task2"));
 		threadPool.execute(new Task("task3"));
-
 	}
 }
 

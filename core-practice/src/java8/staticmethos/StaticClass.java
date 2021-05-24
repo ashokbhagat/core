@@ -5,10 +5,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class StaticClass {
 	
-	Lock lock = new ReentrantLock();
 
-	public static void int1() {
+	/*public static void int1() {
 		System.out.println("StaticClass.int1()");
-	}
-	
+	}*/
+
 }

@@ -6,11 +6,11 @@ public class CountDownLatchDemo {
 	public static void main(String[] args) throws InterruptedException {
 		CountDownLatch latch = new CountDownLatch(10);
 
-		Runnable runnable = new Processor("Processor ", latch, true);
-		new Thread(runnable).start();
+		Processor processor = new Processor("Processor ", latch, true);
+		new Thread(processor).start();
 		latch.await();
 		System.out.println("Completed");
-		
+		processor.stop();
 
 	}
 }
@@ -36,9 +36,13 @@ class Processor implements Runnable {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println(count++);
 			latch.countDown();
+			System.out.println(++count);
 		}
+	}
+
+	public void stop(){
+		this.running=false;
 	}
 
 }
