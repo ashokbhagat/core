@@ -1,6 +1,5 @@
-package ds.array;
+package ds.onedarray;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Arrays;
 import java.util.Scanner;
 

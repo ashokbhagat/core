@@ -1,4 +1,4 @@
-package ds.array;
+package ds.onedarray;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ds.array;/* IMPORTANT: Multiple classes and nested static classes are supported */
+package ds.onedarray;/* IMPORTANT: Multiple classes and nested static classes are supported */
 
 /*
  * uncomment this if you want to read input.
