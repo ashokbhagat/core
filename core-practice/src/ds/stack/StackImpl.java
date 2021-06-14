@@ -13,6 +13,9 @@ public class StackImpl {
 		Random rand = new Random();
 		int upperbound = 25;
 
+		Stack st = new  Stack();
+		
+
 		for (int i = 0; i < 9; i++) {
 			int int_random = rand.nextInt(upperbound);
 			push(int_random);
