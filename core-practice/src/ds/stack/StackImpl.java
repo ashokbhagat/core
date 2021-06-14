@@ -1,6 +1,7 @@
 package ds.stack;
 
 import java.util.Random;
+import java.util.Stack;
 
 public class StackImpl {
 
@@ -20,6 +21,7 @@ public class StackImpl {
 		for (int i = 0; i < 9; i++) {
 			pop();
 		}
+
 
 		for (int i = 0; i < top; i++) {
 			System.out.println(stack[i]);

@@ -1,5 +1,8 @@
 package ds.queue;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class QueueImpl{
 
     private static int[] q = new int[6];
@@ -7,6 +10,7 @@ public class QueueImpl{
     private static int rear=0;
 
     public static void main(String[] args) {
+
 
         for(int i=0;i<q.length+6;i++){
             enQ(i);
